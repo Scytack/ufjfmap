@@ -1,0 +1,21 @@
+export const areas = [
+  { id: "icb", nome: "ICB", descricao: "Instituto de Ciências Biológicas" },
+  { id: "ice", nome: "ICE", descricao: "Instituto de Ciências Exatas" },
+  { id: "ich", nome: "ICH", descricao: "Instituto de Ciências Humanas" },
+  { id: "iad", nome: "IAD", descricao: "Instituto de Artes e Design" },
+  { id: "direito", nome: "Faculdade de Direito" },
+  { id: "facom", nome: "Faculdade de Comunicação Social" },
+  { id: "facc", nome: "Faculdade de Administração e Ciências Contábeis" },
+  { id: "fau", nome: "Faculdade de Arquitetura e Urbanismo" },
+  { id: "economia", nome: "Faculdade de Economia" },
+  { id: "educacao", nome: "Faculdade de Educação" },
+  { id: "educacao-fisica", nome: "Faculdade de Educação Física" },
+  { id: "enfermagem", nome: "Faculdade de Enfermagem" },
+  { id: "engenharia", nome: "Faculdade de Engenharia" },
+  { id: "farmacia", nome: "Faculdade de Farmácia" },
+  { id: "fisioterapia", nome: "Faculdade de Fisioterapia" },
+  { id: "letras", nome: "Faculdade de Letras" },
+  { id: "medicina", nome: "Faculdade de Medicina" },
+  { id: "odontologia", nome: "Faculdade de Odontologia" },
+  { id: "servico-social", nome: "Faculdade de Serviço Social" }
+];

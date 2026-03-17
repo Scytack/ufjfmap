@@ -1,0 +1,72 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.mapa-geral {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.mapa-img {
+  width: 85%;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+.descricao {
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.areas {
+  margin-top: 20px;
+}
+
+.grid-areas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.area-btn {
+  padding: 20px;
+  border: none;
+  background-color: #2c6ed5;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.area-btn:hover {
+  background-color: #1f4fa0;
+}
+
+.area-btn {
+  background-color: #2f6fd3;
+  color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+
+  width: 100%;
+  min-height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-weight: 500;
+  transition: 0.2s;
+}
